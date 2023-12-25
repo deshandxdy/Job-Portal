@@ -27,7 +27,7 @@ const Cards = ({ data }) => {
                     <h3 className="text-1g font-semibold mb-2">{jobTitle}</h3>
                     <div className="text-primary/70 text-base flex flex-wrap gap-2 mb-2">
                         <span className="flex items-center gap-2">
-                            <FiMapPin /> (jobLocation)
+                            <FiMapPin /> {jobLocation}
                         </span>
                         <span className="flex items-center gap-2">
                             <FiClock /> {employmentType}
